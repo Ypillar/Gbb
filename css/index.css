@@ -1,0 +1,501 @@
+  /*三角符号*/
+  
+  .fs-sc {
+      width: 0;
+      position: absolute;
+      right: 5px;
+      top: 15px;
+      border-style: solid;
+      border-top: 5px solid #303236;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+  }
+  /*共用*/
+  
+  .floatRight {
+      float: right;
+  }
+  
+  .floatLeft {
+      float: left;
+  }
+
+  /*搜索*/
+  
+  .ss-box {
+      height: 120px;
+      background: #FFFFFF;
+      padding: 15px 0 5px 50px;
+      border: 1px #bdbdbd solid;
+      margin-top: 20px;
+      background: #f7f7f7;
+  }
+  
+  .ss-box dl {
+      margin: 10px 0 10px 10px;
+      width: 1100px;
+      height: 40px;
+      margin-bottom: 10px;
+      margin-left: 10px !important;
+      margin-top: 10px !important;
+  }
+  
+  .ss-box dl dt {
+      float: left;
+      display: inline;
+      height: 44px;
+      line-height: 44px;
+      text-align: right;
+      font-size: 14px;
+      margin-right: 10px;
+      color: #6c6c6c;
+  }
+  
+  .ss-box dl .mg-left {
+      margin-left: 55px;
+  }
+  
+  .ss-box dl .text-gys {
+      width: 96px;
+      height: 39px;
+      border: 1px solid #d8d8d8;
+      padding-left: 10px;
+  }
+  
+  .ss-box dl dd {
+      float: left;
+      display: inline;
+      position: relative;
+  }
+  
+  .ss-box dl dd div {
+      width: 78px;
+      font-weight: 500;
+      padding: 5px 8px;
+      border: 1px solid #d8d8d8;
+      background: #FFFFFF !important;
+      height: 27px !important;
+      line-height: 27px !important;
+  }
+  
+  .ss-box dl dd div i {
+      font-style: normal;
+  }
+  
+  .formMod {
+      width: 1000px;
+      margin-bottom: 10px;
+  }
+  
+  .ss-box dl .text-spmc {
+      width: 294px;
+      height: 27px;
+      line-height: 32px;
+      border: 1px solid #dadada;
+      padding: 5px 10px;
+      color: #333;
+      background: transparent;
+      font-size: 14px;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+  }
+  
+  .btn-ljss {
+      width: 125px;
+      height: 30px;
+      padding-left: 20px;
+      border-radius: 5px;
+      border: 1px solid #ff6600;
+      background: #ff6600;
+      margin: 10px 20px;
+      color: #ffffff;
+      background-image: url("../images/ss.png");
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: 5px 5px;
+  }
+  /*    1F交易大厅*/
+  
+  .jydt-box {
+      width: 1200px;
+      margin-top: 20px;
+      position: relative;
+      height: 330px;
+  }
+  
+  .jydt-box .bt1 {
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  .jydt-box .bt2 {
+      font-size: 12px;
+      color: #a5a5a5;
+  }
+  
+  .jydt-box .bt3 {
+      font-size: 16px;
+      color: #168eff;
+      position: absolute;
+      right: 0;
+  }
+  
+  .f1-box {
+      margin-top: 5px;
+      border-top: 3px solid #fa696e;
+  }
+  
+  .leftf-box {
+      width: 240px;
+      height: 288px;
+      float: left;
+  }
+  
+  .leftf-box img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .centerf-box {
+      width: 680px;
+      height: 288px;
+      float: left;
+      padding: 0 20px;
+      margin-top: 5px;
+  }
+  
+  .rightf-box {
+      width: 240px;
+      height: 288px;
+      float: right;
+      position: relative;
+      margin-top: 5px;
+  }
+  
+  .rightf-box .tpback {
+      width: 100%;
+      height: 20px;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.64);
+      top: 118px;
+  }
+  
+  .topbt {
+      width: 100%;
+      height: 40px;
+      position: relative;
+      border-bottom: 1px solid #ff9900;
+  }
+  
+  .centerf-box .cen1f {
+      width: 100%;
+      height: 239px;
+  }
+  
+  .topbt1 {
+      width: 100%;
+      height: 40px;
+      position: relative;
+      border-bottom: 1px solid #797676
+  }
+  
+  .topbt1 span {
+      line-height: 40px;
+      color: #666;
+  }
+  
+  .topbt div {
+      width: 420px;
+      height: 40px;
+      float: right;
+  }
+  
+  .topbt .zhzs {
+      font-size: 20px;
+      font-weight: 700;
+      color: #666;
+      line-height: 40px;
+  }
+  
+  .topbt .gd {
+      font-size: 14px;
+      color: #666;
+  }
+  
+  .topbt div .btdj {
+      font-size: 14px;
+      right: 10px;
+      display: inline-block;
+      width: 100px;
+      height: 20px;
+      color: #666;
+      line-height: 40px;
+  }
+  
+  .dynamicNews {
+      width: 100%;
+      background: #f7f7f7;
+      height: 250px;
+  }
+  
+  .dynamicNews img {
+      width: 100%;
+      height: 83px;
+      margin-top: 15px;
+  }
+  
+  .dynamicNews p {
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      overflow: hidden;
+  }
+  
+  .dynamicNews p i {
+      width: 5px;
+      height: 5px;
+      display: inline-block;
+      background: #ff8d00;
+  }
+  
+  .dynamicNews p span {
+      font-size: 12px;
+  }
+  
+  .jydt-box1 {
+      width: 1200px;
+      margin-top: 20px;
+      position: relative;
+  }
+  
+  .jydt-box1 .bt1 {
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  .jydt-box1 .bt2 {
+      font-size: 12px;
+      color: #a5a5a5;
+  }
+  
+  .jydt-box1.bt3 {
+      font-size: 16px;
+      color: #168eff;
+      position: absolute;
+      right: 0;
+  }
+  /*  F2结算中心*/
+  
+  .f2-box {
+      margin-top: 5px;
+      border-top: 3px solid #fec530;
+  }
+  
+  .js-center {
+      width: 205px;
+      height: 262px;
+      float: left;
+      position: relative;
+      margin-top: 20px;
+      border: 1px solid #d8d4d4;
+  }
+  
+  .js-center img {
+      text-align: center;
+      padding: 20px 0;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  .js-center p {
+      text-align: center;
+  }
+  
+  .js-center .p1 {
+      padding: 12px 0;
+      font-size: 14px;
+      font-weight: 700;
+  }
+  
+  .js-center .p2 {
+      font-size: 12px;
+      padding: 15px 0;
+  }
+  
+  .js-center .p3 {
+      padding: 10px;
+      font-size: 35px;
+  }
+  
+  .bothSides-padding {
+      margin: 0 29px;
+      margin-top: 20px;
+  }
+  
+  .f3-box {
+      margin-top: 5px;
+      border-top: 3px solid #fec530;
+  }
+  
+  .rightf1-box {
+      width: 240px;
+      height: 288px;
+      float: right;
+      position: relative;
+  }
+    .rightf1-box img{
+      width: 100%;
+      height: 100%;
+    }
+  /*3F巴巴商城*/
+  
+  .f3-box {
+      margin-top: 5px;
+      border-top: 3px solid #7cafde;
+  }
+  
+  .centerf-box .botbox {
+      width: 194px;
+      height: 132px;
+      float: left;
+      border: 1px solid #d8d8d8;
+      margin: 6px 15px;
+  }
+  
+  .centerf-box .botbox span {
+      text-align: center;
+      display: block;
+      width: 135px;
+      font-size: 18px;
+      margin: 0 auto;
+  }
+  
+  .ce-lin {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      background-color: #ffffff;
+  }
+  
+  .ce-lin span {
+      color: #ff6600;
+  }
+  
+.span1 {
+      left: 5px;
+      position: absolute;
+  }
+  
+ .span2 {
+      right: 5px;
+      position: absolute;
+  }
+  
+  .icon_box {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      margin: 10px auto;
+      width: 66px;
+      height: 66px;
+      overflow: hidden;
+  }
+  
+  .icon_box .img1 {
+      position: absolute;
+      left: -55px;
+      top: -25px;
+  }
+
+  .icon_box .img2 {
+      position: absolute;
+      left: -266px;
+      top: -25px;
+  }
+    .icon_box .img3 {
+      position: absolute;
+      left: -480px;
+      top: -25px;
+  }
+    .icon_box .img4 {
+      position: absolute;
+      left: -55px;
+      top: -169px;
+  }
+    .icon_box .img5 {
+      position: absolute;
+      left: -266px;
+      top: -169px;
+  }
+    .icon_box .img6{
+      position: absolute;
+      left: -480px;
+      top: -169px;
+  }
+
+/*  4F采购市场*/
+.f4-box {
+      margin-top: 5px;
+      border-top: 3px solid #ff9a66;
+  }
+  .botbox2{
+  width: 308px;
+      height: 132px;
+      float: left;
+      border: 1px solid #d8d8d8;
+      margin: 6px 15px;
+      background: rgba(247, 247, 247, 0.82);
+      position: relative;
+  }
+    .icon_box2 {
+      width:100px;
+      height: 92px;
+     
+      margin: 20px 28px;
+    overflow: hidden;
+    position: relative;
+    }
+  .icon_box2 .img1{    position: absolute;
+    left: -30px;
+    top: -4px;
+
+  }
+ .icon_box2 .img2{    position: absolute;
+    left: -359px;
+    top: -4px;
+
+  }
+ .icon_box2 .img3{    position: absolute;
+    left: -30px;
+    top: -157px;
+
+  } .icon_box2 .img4{    position: absolute;
+    left: -359px;
+    top: -157px;
+
+  }
+
+
+.bt_span{
+      position: absolute;
+    display: block;
+    width: 100px;
+    top: 40px;
+    left: 120px;
+    font-size: 18px;
+}
+
+.xj_span{
+  position: absolute;
+    display: block;
+    width: 197px;
+    top: 78px;
+    left: 120px;
+    font-size: 12px;
+    color: #8a8a8a;
+}
+
+footer{
+      margin-top: 50px;
+}

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>钢巴巴</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/zzsc.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div class="box">
+
+        <head>
+            <div class="header h-193">
+                <div class="topBar">
+                    <div class="layout clearfix">
+                        <div class="loginStatus floatLft">
+                            <ul class="loginBefore clearfix">
+                                <li class="welcome"><span class="accountId inlBlk">欢迎光临钢巴巴</span></li>
+                                <!-- <li class="loginIn"><a href="/mem/login.html?url="><i class="hbFntWes">&#xf090;</i>登录</a></li> -->
+                                <li class="loginIn"><a href="javascript:;" class="login_tc" onclick="shuxy();">登录</a></li>
+                                <li class="line">│</li>
+                                <li class="loginUp"><a href="/mem/register.html">注册</a></li>
+                            </ul>
+                        </div>
+                        <div class="topNav floatRgt">
+                            <ul class=" loginUp clearfix">
+                                <li class=""><a href="/help/" target="_blank">帮助中心</a></li>
+                                <li class="line" style="height: 18px;">│</li>
+                                <li class=""><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=3455867816&amp;site=www.cactussoft.cn&amp;menu=yes" target="_blank">在线客服</a></li>
+                                <li class="line" style="height: 18px;">│</li>
+                                <li class=""><a href="javascript:void(0);">热线：023-6891 9255</a></li>
+                                <li class="line" style="height: 18px;">│</li>
+                                <!--<li class=""><a href="javascript:void(0);"><i class="hbIconMoon">&#xe054;</i>手机APP</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="layout clearfix">
+                    <div class="logo">
+                        <a href="">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="search">
+                        <select class="select1">
+                            <option value="商品">商品</option>
+                            <option value="厂家">厂家</option>
+                            <option value="供应商">供应商</option>
+                        </select>
+                        <input type="text" name="search" id="ss" class="search1" placeholder="请输入你要搜索的内容">
+                        <input type="button" name="searchss" class="ss1" value="搜索">
+                    </div>
+                    <div class="search2">
+                        <span>或者</span>
+                        <input type="button" name="searchss" class="ss2" value="发布资源">
+                    </div>
+                </div>
+                <div class="mainnav">
+                    <div class="indpply">
+                        <span>查找全国供应商</span>
+                        <img src="images/icon-qggys.png" alt="">
+                    </div>
+                    <div class="headerNav">
+                        <ul>
+                            <li class="fisli1 navli"><a class="nava" style="color: #ff6600;font-weight:700" href="">首页</a></li>
+                            <li class="fisli2 navli"><a class="nava" href="jiaoyi/index.html">交易大厅</a></li>
+                            <li class="fisli3 navli"><a class="nava" href="jiesuan/index.html">结算中心</a></li>
+                            <li class="fisli4 navli"><a class="nava" href="">巴巴商城</a></li>
+                            <li class="fisli5 navli"><a class="nava" href="">需求市场</a></li>
+                            <li class="fisli6 navli"><a class="nava" href="">物流运输</a></li>
+                            <li class="fisli7 navli"><a class="nava" href="xinyong/index.html">信用评级</a></li>
+                            <li class="fisli8 navli"><a class="nava" href="">会员中心</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="main">
+                    <div class="pro-switch">
+                        <div class="slider">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="img"><img src="images/sy-banner1.png" height="400" alt="" /></div>
+                                    </li>
+                                    <li>
+                                        <div class="img"><img src="images/sy-banner2.png" height="400" alt="" /></div>
+                                    </li>
+                                    <li>
+                                        <div class="img"><img src="images/sy-banner3.png" height="400" alt="" /></div>
+                                    </li>
+                                    <li>
+                                        <div class="img"><img src="images/ad_stock.jpg" height="400" alt="" /></div>
+                                    </li>
+                                    <li>
+                                        <div class="img"><img src="images/ad_auto.jpg" height="400" alt="" /></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-cj">
+                    <div class="nav-a1">
+                        <ul>
+                            <li class="lia" id="liaid1" style="    background: #ffffff;color: #ff6600">签订合同</li>
+                            <li class="lia" id="liaid2">免费开店
+                                <div class="bora"></div>
+                            </li>
+                            <li class="lia" id="liaid3">采购咨询</li>
+                            <div class="bga"></div>
+                        </ul>
+                        <div class="cenlia1">
+                            <div class="qdht1">
+                                <img src="jiaoyi/images/index-sq.png">
+                                <span>查询签约方</span>
+                            </div>
+                            <div class="qdht2">
+                                <ol>
+                                    <li> 我是供应商</li>
+                                    <li>我是采购商</li>
+                                </ol>
+                            </div>
+                            <div class="qdht3">
+                                <div class="qdhta">
+                                    <input type="text" class="input-3" placeholder="请输入采购商（乙方)名称" class="in-yf">
+                                    <button type="button" class="btn3" value="检索">检索</button>
+                                </div>
+                                <div class="qdhta">
+                                    <select class="input-4"> </select>
+                                    <button type="button" class="btn4" value="签定合同">签定合同</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cenlia2">
+                            <div class="a2-center">
+                                <i>*</i>
+                                <label>我的姓名：</label>
+                                <input type="text" class="a2-lx" name="" placeholder="请输入姓名">
+                            </div>
+                            <div class="a2-center">
+                                <i>*</i>
+                                <label>联系手机：</label>
+                                <input type="text" class="a2-lx" name="" placeholder="请输入联系手机">
+                            </div>
+                            <div class="a2-center">
+                                <label class="a2-titdh">联系电话：</label>
+                                <input type="text" class="a2-qh" name="" placeholder="区号">
+                                <span a2-->-</span>
+                                <input type="text" class="a2-dh" name="" placeholder="联系电话">
+                            </div>
+                            <div class="a2-center">
+                                <i>*</i>
+                                <label>开店类型：</label>
+                                <select class="a2-select">
+                                    <option>钢厂</option>
+                                    <option selected="selected">普通供应商</option>
+                                    <option>VIP供应商</option>
+                                </select>
+                                <button type="button" class="a2-btn">提交</button>
+                            </div>
+                        </div>
+                        <div class="cenlia3">
+                            <input type="text" class="a3-tit" placeholder="输入您的采购信息">
+                            <textarea class="a3-center" name="textarea" cols="" rows="" onfocus="if(value=='写下您的真实需求信息，包括规格、材质等收到后我们会立即给您回电话确认，剩下的就交给我们吧。') {value=''}" onblur="if(value=='') {value='写下您的真实需求信息，包括规格、材质等收到后我们会立即给您回电话确认，剩下的就交给我们吧。'}">写下您的真实需求信息，包括规格、材质等收到后我们会立即给您回电话确认，剩下的就交给我们吧。</textarea>
+                            <button class="a3-bor a3-cor1 floatLeft">确认</button>
+                            <button class="a3-bor a3-cor2">发布招标信息</button>
+                            <button class="a3-bor a3-cor3 floatRight">注册采购商</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </head>
+        <article>
+            <div class="center-box">
+                <div class="ss-box">
+                    <dl class="formMod">
+                        <dt>种&nbsp&nbsp&nbsp&nbsp类:</dt>
+                        <dd>
+                            <div>
+                                <i>请选择种类</i>
+                                <input type="hidden" value="1">
+                                <b class="fs-sc"></b>
+                            </div>
+                        </dd>
+                        <dt class="mg-left">品&nbsp&nbsp&nbsp&nbsp名:</dt>
+                        <dd>
+                            <div>
+                                <i>请选择种类</i>
+                                <input type="hidden" value="1">
+                                <b class="fs-sc"></b>
+                            </div>
+                        </dd>
+                        <dt class="mg-left">材&nbsp&nbsp&nbsp&nbsp质:</dt>
+                        <dd>
+                            <div>
+                                <i>请选择种类</i>
+                                <input type="hidden" value="1">
+                                <b class="fs-sc"></b>
+                            </div>
+                        </dd>
+                        <dt class="mg-left">规&nbsp&nbsp&nbsp&nbsp格:</dt>
+                        <dd>
+                            <div>
+                                <i>请选择种类</i>
+                                <input type="hidden" value="1">
+                                <b class="fs-sc"></b>
+                            </div>
+                        </dd>
+                        <dt class="mg-left">供&nbsp&nbsp应&nbsp&nbsp商:</dt>
+                        <dd>
+                            <input type="text" class="text-gys" placeholder="请输入供应商">
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>商品名称：</dt>
+                        <dd>
+                            <span>
+                               <input type="text" class="text-spmc" placeholder="请输入搜索的标题">
+                            </span>
+                        </dd>
+                        <dt class="mg-left">厂家：</dt>
+                        <dd>
+                            <span>
+                               <input type="text" class="text-spmc" placeholder="请输入搜索的厂家">
+                            </span>
+                        </dd>
+                        <input type="button" value="立即搜索" class="btn-ljss">
+                    </dl>
+                </div>
+                <div class="jydt-box">
+                    <span class="bt1">1F交易大厅</span>
+                    <span class="bt2">价格、库存真实有效，让交易更放心</span>
+                    <a class="bt3">进入大厅></a>
+                    <div class="f1-box">
+                        <div class="leftf-box">
+                            <img src="images/1ftp.png" alt="">
+                        </div>
+                        <div class="centerf-box">
+                            <div class="topbt">
+                                <span class="zhzs">综合指数</span>
+                                <span class="gd">更多></span>
+                                <div class="right-y">
+                                    <span class="btdj">88报价</span>
+                                    <span class="btdj">有色金属</span>
+                                    <span class="btdj">当日汇率</span>
+                                    <span class="btdj">大宗商品</span>
+                                </div>
+                            </div>
+                            <div class="cen1f">
+                                <div id="main" style="height:288px"></div>
+                            </div>
+                        </div>
+                        <div class="rightf-box">
+                            <div class="topbt1">
+                                <span>最新钢市动态</span>
+                            </div>
+                            <div class="dynamicNews">
+                                <img src="images/f1tp.jpg">
+                                <div class="tpback"></div>
+                                <p>
+                                    <i></i>
+                                    <span>山西钢厂几乎全停工 钢市放大招了</span>
+                                </p>
+                                <p>
+                                    <i></i>
+                                    <span>钢材价格易跌难涨 市场正上演最后的疯狂</span>
+                                </p>
+                                <p>
+                                    <i></i>
+                                    <span>环保与季节“博弈”市场是沉寂还是酝酿</span>
+                                </p>
+                                <p>
+                                    <i></i>
+                                    <span>钢材期货老司机又 开车你还上钢市的车么</span>
+                                </p>
+                                <p>
+                                    <i></i>
+                                    <span>钢材期货老司机又 开车你还上钢市的车么</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jydt-box">
+                    <span class="bt1">2F结算中心</span>
+                    <span class="bt2">安全、便捷、高效的结算体系</span>
+                    <a class="bt3">进入结算></a>
+                    <div class="f2-box">
+                        <div class="leftf-box">
+                            <img src="images/2ftp.jpg" alt="">
+                        </div>
+                        <div class="centerf-box">
+                            <div class="js-center">
+                                <img src="images/jstp1.jpg">
+                                <p class="p1">全国领先钢材电商平台</p>
+                                <p class="p2">全方位守护您的财产安全，放心购买</p>
+                                <p class="p3">安全</p>
+                            </div>
+                            <div class="js-center bothSides-padding">
+                                <img src="images/jstp2.jpg">
+                                <p class="p1">专业钢材运输平台</p>
+                                <p class="p2">一站式服务，让你的交易更省心</p>
+                                <p class="p3">方便</p>
+                            </div>
+                            <div class="js-center">
+                                <img src="images/jstp3.png">
+                                <p class="p1">全一键即可找货</p>
+                                <p class="p2">资源快速汇集，随手可报价</p>
+                                <p class="p3">快捷</p>
+                            </div>
+                        </div>
+                        <div class="rightf1-box">
+                            <img src="images/jstp4.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="jydt-box">
+                    <span class="bt1">3F需求市场</span>
+                    <span class="bt2">全国供应商、钢材任您挑选</span>
+                    <a class="bt3">我要卖钢></a>
+                    <div class="f3-box">
+                        <div class="leftf-box">
+                            <img src="images/3ftp.jpg" alt="">
+                        </div>
+                        <div class="centerf-box">
+                            <div class="botbox">
+                                <div class="icon_box">
+                                    <img class="img1" src="images/icon-botbox.png">
+                                </div>
+                                <span>认证供应商</span>
+                            </div>
+                            <div class="botbox">
+                                <div class="icon_box">
+                                    <img class="img2" src="images/icon-botbox.png">
+                                </div>
+                                <span>免费开店</span>
+                            </div>
+                            <div class="botbox">
+                                <div class="icon_box">
+                                    <img class="img3" src="images/icon-botbox.png">
+                                </div>
+                                <span>店铺管理</span></div>
+                            <div class="botbox">
+                                <div class="icon_box">
+                                    <img class="img4" src="images/icon-botbox.png">
+                                </div>
+                                <span>找产品</span></div>
+                            <div class="botbox">
+                                <div class="icon_box">
+                                    <img class="img5" src="images/icon-botbox.png">
+                                </div>
+                                <span>VIP专区</span></div>
+                            <div class="botbox">
+                                <div class="icon_box">
+                                    <img class="img6" src="images/icon-botbox.png">
+                                </div>
+                                <span>发布资源</span></div>
+                        </div>
+                        <div class="rightf-box">
+                            <div class="topbt1">
+                                <span>最新入驻供应商</span>
+                                <span class="floatRight">更多></span>
+                            </div>
+                            <div class="dynamicNews">
+                                <div class="ce-lin">
+                                    <span class="floatLft span1">供应商</span>
+                                    <span class="floatRight span2">地区</span>
+                                </div>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jydt-box">
+                    <span class="bt1">4F采购市场</span>
+                    <span class="bt2">发布需求，一步完成买钢</span>
+                    <a class="bt3">我要买钢></a>
+                    <div class="f4-box">
+                        <div class="leftf-box">
+                            <img src="images/4ftp.jpg" alt="">
+                        </div>
+                        <div class="centerf-box">
+                            <div class="botbox2">
+                                <div class="icon_box2">
+                                    <img class="img1" src="images/icon-botbox2.png">
+                                </div>
+                                <span class="bt_span">认证采购商</span>
+                                <span class="xj_span">使你的采购更安全、方便、快捷</span>
+                            </div>
+                            <div class="botbox2">
+                                <div class="icon_box2">
+                                    <img class="img2" src="images/icon-botbox2.png">
+                                </div>
+                                <span class="bt_span">发布需求</span>
+                                <span class="xj_span">一站式服务，坐等服务上门</span>
+                            </div>
+                            <div class="botbox2">
+                                <div class="icon_box2">
+                                    <img class="img3" src="images/icon-botbox2.png">
+                                </div>
+                                <span class="bt_span">找需求</span>
+                                <span class="xj_span">定位更精准、购买更快捷</span>
+                            </div>
+                            <div class="botbox2">
+                                <div class="icon_box2">
+                                    <img class="img4" src="images/icon-botbox2.png">
+                                </div>
+                                <span class="bt_span">项目招标</span>
+                                <span class="xj_span">优质项目，一览无遗</span>
+                            </div>
+                        </div>
+                        <div class="rightf-box">
+                            <div class="topbt1">
+                                <span>最新需求信息</span>
+                                <span class="floatRight">更多></span>
+                            </div>
+                            <div class="dynamicNews">
+                                <div class="ce-lin">
+                                    <span class="floatLft span1">供应商</span>
+                                    <span class="floatRight span2">地区</span>
+                                </div>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                                <p>
+                                    <span class="span1">重庆腾飞网络科技有限公司</span>
+                                    <span class="floatRight span2">重庆</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <div class="footer">
+                <div class="fts">
+                    <div class="top-footer">
+                        <ul>
+                            <li style="width: 200px;">
+                                <img class="tp" src="images/footer-1.jpg">
+                                <span>游客指南</span>
+                            </li>
+                            <li>注册新用户</li>
+                            <li>动态密码登录</li>
+                            <li>认证采购商</li>
+                            <li>认证供应商</li>
+                            <li>有问必答</li>
+                        </ul>
+                        <ul>
+                            <li style="width: 200px;">
+                                <img class="tp" src="images/footer-2.jpg">
+                                <span>游客指南</span>
+                            </li>
+                            <li>采购商认证</li>
+                            <li>发布采购信息</li>
+                            <li>快捷找货</li>
+                            <li>签订在线合同</li>
+                            <li>交易结算</li>
+                        </ul>
+                        <ul>
+                            <li style="width: 200px;">
+                                <img class="tp" src="images/footer-3.jpg">
+                                <span>游客指南</span>
+                            </li>
+                            <li>供应商认证</li>
+                            <li>免费开店</li>
+                            <li>寻求订单</li>
+                            <li>发布供应信息</li>
+                            <li>签订在线合同</li>
+                            <li>交易结算</li>
+                        </ul>
+                        <ul>
+                            <li style="width: 200px;">
+                                <img class="tp" src="images/footer-4.jpg">
+                                <span>游客指南</span>
+                            </li>
+                            <li>钢巴巴担保交易</li>
+                            <li>信用积分规则</li>
+                            <li style="width:200px;">服务热线：400-700-8508</li>
+                        </ul>
+                        <img src="images/footer-5.jpg" class="mgt15">
+                    </div>
+                </div>
+                <div class="fts01">
+                    <div class="bottom-footer">
+                        <p>Copyright© 2016 steel88 Inc.,All rights reserved.</p>
+                        <p><span>全国咨询/投诉电话：400-400-400</span> E-mail:web@steel88.cn 渝ICP备案 1555555号
+                        </p>
+                        <ol>
+                            <li><img src="images/footer-bot1.jpg"></li>
+                            <li><img src="images/footer-bot2.jpg"></li>
+                            <li><img src="images/footer-bot3.jpg"></li>
+                            <li><img src="images/footer-bot4.jpg"></li>
+                            <li><img src="images/footer-bot5.jpg"></li>
+                            <li><img src="images/footer-bot6.jpg"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/echarts.js"></script>
+    <script defer src="js/slider.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jiaoyi.js"></script>
+
+
+    <!--     banner图效果 -->
+    <script type="text/javascript">
+    $(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
